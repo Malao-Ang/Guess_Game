@@ -1,18 +1,23 @@
 <template>
+
 <section>
+  <div class="front">
+  
+  </div>
 <div class="grid-container">
 <div>
     <div class="card">
-    <img src="..\assets\1.png" alt="Avatar" style="width:100%">
+    <img src="..\assets\images\1.png" alt="Avatar" style="width:100%">
     <div class="container">
       <h4><b>LukTung Esan</b></h4> 
       <p>Lest's guess the song !!!</p> 
-      <router-link to="/LukTung1#ask">
-        <button class="button">Play</button>
-      </router-link>
+          <router-link to="/LukTung1#ask">
+            <button class="button">Play</button>
+          </router-link>
     </div>
   </div>
 </div>
+
   <div>
 
   <div class="card">
@@ -51,11 +56,14 @@
 </section>
 </template>
 
-<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.tailwindcss.com">
+</script>
 <script>
 export default {
+  name:"Home",
 
-}
+};
+
 </script>
 
 <style>

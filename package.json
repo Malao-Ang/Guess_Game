@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@growthbunker/vuedarkmode": "^0.5.56",
+    "animate.css": "^4.1.1",
     "core-js": "^3.6.5",
     "daisyui": "^2.4.0",
     "vue": "^2.6.11",
